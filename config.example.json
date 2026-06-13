@@ -1,0 +1,33 @@
+{
+  "output_dir": "./downloads/reports",
+  "date_range": "all",
+  "report_types": [
+    "all"
+  ],
+  "companies": [
+    {
+      "name": "平安银行",
+      "code": "000001"
+    },
+    {
+      "name": "贵州茅台",
+      "code": "600519"
+    },
+    "招商银行"
+  ],
+  "columns": [
+    "szse",
+    "sse"
+  ],
+  "page_size": 100,
+  "max_pages": 8,
+  "max_per_company_per_type": 1000,
+  "latest_only": false,
+  "request_timeout_seconds": 15,
+  "interval_seconds": 0.5,
+  "resolve_code_from_cninfo": true,
+  "exclude_title_keywords": [
+    "摘要",
+    "英文版"
+  ]
+}
